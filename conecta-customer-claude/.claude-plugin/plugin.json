@@ -1,0 +1,27 @@
+{
+  "name": "conecta-customer",
+  "version": "0.1.8",
+  "description": "Use your Conecta customer workspace for contacts, tasks, appointments, messages, billing, workflows, blast drafts, and AWS website management.",
+  "author": {
+    "name": "Hola Conecta Inc"
+  },
+  "homepage": "https://holaconecta.com/customer-claude-connection",
+  "license": "MIT",
+  "privacyPolicyUrl": "https://holaconecta.com/privacy-policy",
+  "icon": "./assets/conecta.png",
+  "mcpServers": {
+    "conecta-customer": {
+      "type": "http",
+      "url": "https://proxy.holaconecta.com/mcp/conecta"
+    }
+  },
+  "keywords": [
+    "conecta",
+    "crm",
+    "contacts",
+    "tasks",
+    "appointments",
+    "blasts",
+    "websites"
+  ]
+}

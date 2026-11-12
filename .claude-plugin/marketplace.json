@@ -1,0 +1,18 @@
+{
+  "name": "conecta",
+  "owner": {
+    "name": "Hola Conecta, Inc."
+  },
+  "metadata": {
+    "description": "Hola Conecta plugins for Claude."
+  },
+  "plugins": [
+    {
+      "name": "conecta-customer",
+      "source": "./conecta-customer-claude",
+      "description": "Use your Conecta customer workspace for contacts, tasks, appointments, messages, billing, workflows, blast drafts, and AWS website management.",
+      "version": "0.1.8",
+      "category": "productivity"
+    }
+  ]
+}
